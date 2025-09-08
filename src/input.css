@@ -24,6 +24,7 @@
 */
 
 @theme {
+ --color-primary-sky: rgb(102,189,249);
  --color-primary-red: hsl(7, 99%, 70%);
  --color-primary-yellow: hsl(51, 100%, 49%);
  --color-primary-green-dark: hsl(167, 40%, 24%);

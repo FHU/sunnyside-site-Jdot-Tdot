@@ -8,6 +8,9 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="./src/output.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap" rel="stylesheet">
 
   <title>Frontend Mentor | Sunnyside agency landing page</title>
 
@@ -20,9 +23,8 @@
 </head>
 
 <body>
-
-  <header class="bg-cyan-500 text-white flex justify-between px-6 py-8 align-middle">
-    <a><img src="./images/logo.svg" class="align-middle" alt="sunny side logo"></a>
+  <header class="absolute w-full top-0 left-0 bg-primary-sky text-white flex justify-between px-6 py-8 align-middle">
+    <a><img src="images/logo.svg" class="align-middle" alt="sunny side logo"></a>
     <nav class="flex space-x-6 text-lg">
       <a href="#" class="hover:bg-cyan-300 py-2 px-5 rounded-full">About</a>
       <a href="#" class="hover:bg-cyan-300 py-2 px-5 rounded-full">Services</a>
@@ -30,7 +32,11 @@
       <a href="#" class="rounded-full bg-white text-black px-5 hover:bg-cyan-300 p-2">Contact</a>
     </nav>
   </header>
-  <section class="hero">
+  <section class="hero 
+  text-white text-center
+  bg-[url('../images/desktop/image-header.jpg')]
+  bg-cover bg-center h-150 pt-40
+  font-heading font-black uppercase ">
     <h1>We are creatives</h1>
   </section>
 

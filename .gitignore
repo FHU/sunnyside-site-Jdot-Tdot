@@ -2,3 +2,4 @@
 # public/tailwind.css
 # dist/output.css
 node_modules/
+.DS_Store
