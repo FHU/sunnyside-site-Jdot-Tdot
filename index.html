@@ -23,14 +23,28 @@
 </head>
 
 <body>
-  <header class="absolute w-full top-0 left-0 bg-primary-sky text-white flex justify-between px-6 py-8 align-middle">
+  <header class="absolute w-full top-0 left-0 bg-transparent flex justify-between px-6 py-8 align-middle">
+    <!-- Large Screen Nav -->
     <a><img src="images/logo.svg" class="align-middle" alt="sunny side logo"></a>
-    <nav class="flex space-x-6 text-lg">
-      <a href="#" class="hover:bg-cyan-300 py-2 px-5 rounded-full">About</a>
-      <a href="#" class="hover:bg-cyan-300 py-2 px-5 rounded-full">Services</a>
-      <a href="#" class="hover:bg-cyan-300 py-2 px-5 rounded-full">Projects</a>
-      <a href="#" class="rounded-full bg-white text-black px-5 hover:bg-cyan-300 p-2">Contact</a>
+    <nav class="space-x-6 text-lg hidden sm:flex">
+      <a href="#" class= py-2 px-5 rounded-full">About</a>
+      <a href="#" class=" py-2 px-5 rounded-full">Services</a>
+      <a href="#" class=" py-2 px-5 rounded-full">Projects</a>
+      <a href="#" class="rounded-full bg-white text-black px-5 p-2">Contact</a>
     </nav>
+
+    <!-- Hamburger for small screens-->
+    <a href="" class="sm:hidden" id="hamburger-button"><img src="images/icon-hamburger.svg"></a>
+    <!-- what we hide and unhide-->
+    <div class="absolute left-0 top-20 w-full px-10 sm:hidden hidden" id="mobile-menu">
+    <nav class="w-full py-8 mx-auto flex flex-col gap-4 bg-neutral-white text-shadow-black text-center items-center sm:hidden">
+      <a href="#" class="">About</a>
+      <a href="#" class="">Services</a>
+      <a href="#" class="">Projects</a>
+      <a href="#" class="p-4 rounded-full bg-primary-yellow text-black px-5">Contact</a>
+    </nav>
+    </div>
+
   </header>
   <section class="hero 
   text-white text-center
@@ -54,7 +68,25 @@
     Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build
     and extend your brand in digital places.
 
-    Learn more
+    <a href="" class="
+    font-black
+    font-headings
+    uppercase
+    inline
+    relative z-0
+    after:content-['']
+    after:absolute 
+    after:left-[-10%]
+    after:bottom-[-2px]
+    after:w-[110%] after:h-2
+    after:bg-yellow-500
+    after:rounded-lg
+    after:-z-10
+    
+    after:opacity-0
+    after:transition-all 
+    after:duration-1000
+    hover:after:opacity-100">Learn more</a>
   </section>
   <section class="graphic">
     Graphic design
@@ -97,6 +129,8 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Your Name Here</a>.
   </div>
+<!-- You put javascript at the end of the page so everything before it is loaded.-->
+ <script src="app.js"></script>
 </body>
 
 </html>
