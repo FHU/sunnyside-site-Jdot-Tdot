@@ -23,11 +23,12 @@
 </head>
 
 <body>
-  <header class="absolute w-full top-0 left-0 bg-transparent flex justify-between px-6 py-8 align-middle">
+  <div class="absolute top-0 left-0 w-full">
+  <header class="bg-transparent flex justify-between px-6 py-8 align-middle box-content">
     <!-- Large Screen Nav -->
     <a><img src="images/logo.svg" class="align-middle" alt="sunny side logo"></a>
     <nav class="space-x-6 text-lg hidden sm:flex">
-      <a href="#" class= py-2 px-5 rounded-full">About</a>
+      <a href="#" class="py-2 px-5 rounded-full">About</a>
       <a href="#" class=" py-2 px-5 rounded-full">Services</a>
       <a href="#" class=" py-2 px-5 rounded-full">Projects</a>
       <a href="#" class="rounded-full bg-white text-black px-5 p-2">Contact</a>
@@ -44,44 +45,46 @@
       <a href="#" class="p-4 rounded-full bg-primary-yellow text-black px-5">Contact</a>
     </nav>
     </div>
-
   </header>
+  </div>
   <section class="hero 
   text-white text-center
   bg-[url('../images/desktop/image-header.jpg')]
   bg-cover bg-center h-150 pt-40
   font-heading font-black uppercase">
-    <h1 class="text-8xl">We are creatives</h1>
+    <h1 class="text-6xl">We are creatives</h1>
     <img src="images/icon-arrow-down.svg" class="mx-auto mt-20">
   </section>
 
-<section class="transform flex">
+<section class="transform flex bg-neutral-white">
 
-  <div class="flex-1 w-full">
-  <h1>Transform your brand</h1>
+  <div class="flex-1 self-center">
+    <div class="flex flex-col px-10 mx-10 gap-8">
+      <h1>Transform your brand</h1>
 
-  <p>We are a full-service creative agency specializing in helping brands grow fast. 
-  Engage your clients through compelling visuals that do most of the marketing for you.</p>
+      <p>We are a full-service creative agency specializing in helping brands grow fast. 
+      Engage your clients through compelling visuals that do most of the marketing for you.</p>
 
-  <a href="" class="
-    font-black
-    font-headings
-    uppercase
-    inline
-    relative z-0
-    after:content-['']
-    after:absolute 
-    after:left-[-10%]
-    after:bottom-[-2px]
-    after:w-[110%] after:h-2
-    after:bg-yellow-500
-    after:rounded-lg
-    after:-z-10
-    
-    after:opacity-0
-    after:transition-all 
-    after:duration-1000
-    hover:after:opacity-100">Learn more</a>
+      <a href="" class="
+        font-black
+        font-headings
+        uppercase
+        inline
+        relative z-0
+        after:content-['']
+        after:absolute 
+        after:left-[-10%]
+        after:bottom-[-2px]
+        after:w-[110%] after:h-2
+        after:bg-yellow-500
+        after:rounded-lg
+        after:-z-10
+        
+        after:opacity-0
+        after:transition-all 
+        after:duration-1000
+        hover:after:opacity-100">Learn more</a>
+    </div>
   </div>
 
   <img class="flex-1 w-full"
@@ -91,38 +94,40 @@
 
 </section>
 
-<section class=" standout flex">
+<section class=" standout flex bg-neutral-white">
 
   <img class="flex-1 w-full"
     srcset="images/desktop/image-stand-out.jpg 800w, images/mobile/image-stand-out.jpg 400w"
     sizes="(max-width: 600px) 400px, 800px"
     src="images/desktop/image-stand-out.jpg" alt="">
 
-  <div class="flex-1 w-full">
-    <h1>Stand out to the right audience</h1>
+  <div class="flex-1 self-center">
+    <div class="flex flex-col px-10 mx-10 gap-8">
+      <h1>Stand out to the right audience</h1>
 
-    <p>Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build
-    and extend your brand in digital places.</p>
+      <p>Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build
+      and extend your brand in digital places.</p>
 
-    <a href="" class="
-    font-black
-    font-headings
-    uppercase
-    inline
-    relative z-0
-    after:content-['']
-    after:absolute 
-    after:left-[-10%]
-    after:bottom-[-2px]
-    after:w-[110%] after:h-2
-    after:bg-yellow-500
-    after:rounded-lg
-    after:-z-10
-    
-    after:opacity-0
-    after:transition-all 
-    after:duration-1000
-    hover:after:opacity-100">Learn more</a>
+      <a href="" class="
+      font-black
+      font-headings
+      uppercase
+      inline
+      relative z-0
+      after:content-['']
+      after:absolute 
+      after:left-[-10%]
+      after:bottom-[-2px]
+      after:w-[110%] after:h-2
+      after:bg-yellow-500
+      after:rounded-lg
+      after:-z-10
+      
+      after:opacity-0
+      after:transition-all 
+      after:duration-1000
+      hover:after:opacity-100">Learn more</a>
+    </div>
   </div>
   
   </section>
