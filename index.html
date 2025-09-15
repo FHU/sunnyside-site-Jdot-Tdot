@@ -133,14 +133,20 @@
   </section>
 
   <section class="flex graphic text-center">
-    <div class="flex-1 bg-[url('../images/desktop/image-graphic-design.jpg')] w-full h-full">
-    <h2>Graphic design</h2>
-    <p>Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential
-    clients’ attention.</p>
+    <div class="flex-1 relative">
+        <img class="w-full h-full" srcset="images/desktop/image-graphic-design.jpg 400w, images/mobile/image-graphic-design.jpg 200w">
+          <div class="absolute bottom-1/5 px-10 w-full flex flex-col gap-8">
+            <h2>Graphic design</h2>
+            <p>Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential
+            clients’ attention.</p>
+          </div>
     </div>
-    <div class="flex-1 bg-[url('../images/desktop/image-photography.jpg')] w-full h-full">
-    <h2>Photography</h2>
-    <p>Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+    <div class="flex-1 relative">
+      <img class="w-full h-full" srcset="images/desktop/image-photography.jpg 400w, images/mobile/image-photography.jpg 200w">
+      <div class="absolute bottom-1/5 px-10 w-full flex flex-col gap-8">
+        <h2>Photography</h2>
+        <p>Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+      </div>
     </div>
   </section>
   <section class="testimonial flex flex-col text-center">
