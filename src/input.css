@@ -36,6 +36,6 @@
  --color-neutral-grey-400: hsl(210, 4%, 67%);
  --color-neutral-white: hsl(0, 100%, 100%);
 
- --font-body:: Barlow, sans-serif;
- --font-heading:: Fraunces, serif;
+ --font-body: Barlow, sans-serif;
+ --font-heading: Fraunces, serif;
 }
